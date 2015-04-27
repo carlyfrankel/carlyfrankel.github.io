@@ -1,0 +1,893 @@
+body {
+  background-color: lightblue;
+}
+/*Header*/
+#header-container{
+  width: 100%;
+  height: 100px;
+  background-color: #347AEB;
+  position: relative;
+  left: -10;
+  border-style: solid;
+  border-left: none;
+  border-right: none;
+  border-color: navy;
+  border-width: 2.5px;
+}
+#findpuppy {
+  font-family: Alegreya;
+  font-size: 12;
+  position: absolute;
+  left: 730;
+  top: 29;
+  padding: 5;
+  background-color: #31E993;
+  border-color: yellow;
+  border-style: solid;
+  cursor: pointer;
+}
+#findpuppy:hover{
+  background-color:green;
+}
+.navbar-container{
+   background-color: #31E993;
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  z-index: 50;
+  top: 90;
+  border-color: navy;
+  border-width: 2;
+  border-style: solid;
+  border-left: none;
+  border-right: none;
+  left:-18.5;
+}
+#navbar{
+  position: relative;
+  font-family: Alegreya;
+  font-size: 22;
+  left: 300;
+  color: black;
+  top: 7;
+
+}
+#home{
+position: absolute;
+  left: -170;
+    cursor:pointer;
+}
+#home:hover{
+  color:yellow;
+}
+#about{
+  position: absolute;
+  left: 40;
+    cursor:pointer;
+}
+#about:hover{
+  color:yellow;
+}
+#browse{
+  position: absolute;
+  left: 230;
+  cursor: pointer;
+}
+#browse:hover{
+  color:yellow;
+}
+#settings{
+  position: absolute;
+  left: 700;
+  cursor: pointer;
+}
+#settings:hover{
+  color:yellow;
+}
+#groups{
+   position: absolute;
+  left: 520;
+  cursor: pointer;
+}
+#groups:hover{
+  color:yellow;
+}
+
+#homepaw,#aboutpaw,#settingspaw,#browsepaw,#groupspaw{
+  height:20px;
+}
+#homepaw{
+  position:absolute;
+  left: -190;
+  top: 4;
+}
+#aboutpaw{
+  position:absolute;
+  left: 20;
+  top: 4;
+}
+#browsepaw{
+   position: absolute;
+  left: 210;
+  top: 4;
+}
+#settingspaw{
+   position: absolute;
+  left: 680;
+  top: 4;
+}
+#groupspaw{
+    left: 500;
+  position: absolute;
+  top: 4;
+}
+.logo{
+  z-index: 100;
+  position: relative;
+  right: 300;
+  cursor: pointer;
+}
+#pawprint{
+  height: 40px;
+  z-index: 100;
+  position: absolute;
+  left: 320;
+  top: 20;
+}
+#title{
+  font-family: Cookie;
+  font-size: 60;
+  color:yellow;
+  z-index: 100;
+  position: absolute;
+  left: 360;
+  top:10;
+}
+#tagline{
+  font-family: Alegreya;
+  font-size: 12;
+  z-index: 100;
+  color:white;
+  position: relative;
+  left: 450;
+  top: 60;
+}
+.search{
+  border: 5px solid white;
+  padding: 10px;
+  background: lightyellow;
+  margin: 0px;
+  margin-bottom: 20px;
+  width: 330px;
+  height: 20px;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: Alegreya;
+  color: black;
+  position: absolute;
+  left: 390;
+  top: 30;
+  z-index: 100;
+}
+.search:-webkit-input-placeholder  {
+color: white;
+}
+#welcome{
+  font-family: Alegreya;
+  position: absolute;
+  left: 940;
+  font-size: 14;
+  top: 30;
+  cursor: pointer;
+  background-color: lightyellow;
+  padding: 5;
+  padding-right: 25;
+  border-style: solid;
+  border-color:grey;
+  border-width: 1px;
+}
+#welcome:hover{
+  color:#347AEB;
+}
+#usermodalarrow{
+  height: 15px;
+  position: absolute;
+  z-index: 100;
+  left: 1065;
+  top: 38;
+}
+
+/*USER MODAL */
+#user-container{
+  position: fixed;
+  background-color: white;
+  border-width: 2px;
+  z-index: 100;
+  left: 937;
+  width: 150;
+  height: 120;
+  top: 68;
+  font-family: Alegreya;
+  background-color: lightyellow;
+  border-style:solid;
+  border-width: 1px;
+  border-color: grey;
+  font-size:13;
+  display: none;
+}
+#queue{
+   position: absolute;
+  top: 10;
+  left: 27;
+  cursor: pointer;
+}
+#queue:hover{
+  color:#347AEB;
+}
+#queuepaw{
+  position: absolute;
+  height: 10px;
+  top: 14;
+  left: 12;
+}
+#favorites{
+   position: absolute;
+  top: 35;
+  left: 27;
+  cursor: pointer;
+}
+#favorites:hover{
+  color:#347AEB;
+}
+#favoritespaw{
+  position: absolute;
+  height: 10px;
+  top: 39;
+  left: 12;
+
+}
+#register{
+   position: absolute;
+  top: 60;
+  left: 27;
+  cursor: pointer;
+}
+#register:hover{
+  color:#347AEB;
+}
+#registerpaw{
+  position: absolute;
+  height: 10px;
+  top: 64;
+  left: 12;
+
+}
+#logout{
+    position: absolute;
+  top: 90;
+  left: 27;
+  cursor: pointer;
+  }
+  #logout:hover{
+  color:#347AEB;
+}
+  #logoutpaw{
+  position: absolute;
+  height: 10px;
+  top: 94;
+  left: 12;
+}
+#user-bulldog{
+   height: 38px;
+  position: absolute;
+  left: 90;
+  top: 80;
+}
+#Anderson {
+  height: 55;
+  position: absolute;
+  left: 1100;
+  top: 10;
+  border-style: solid;
+  border-width: 2px;
+  border-color: aquamarine;
+}
+
+/*Footer*/
+#footer{
+  background-color:#347AEB;
+  position:relative;
+  height:35px;
+  z-index:100;
+  top: 1386;
+  width: 1149;
+  left: -10;
+}
+#profile-container {
+  background-color: white;
+  position: relative;
+  width: 1060px;
+  height: 460px;
+  top: 50;
+  left: 30;
+  font-family:Alegreya;
+  border-style: solid;
+  border-width: 2px;
+  margin-right:auto;
+  margin-left:auto;
+
+}
+#ratings-top{
+  width:1060px;
+  position:absolute;
+  background-color:#347AEB;
+  height:20px;
+
+}
+#ratings-bottom{
+  width:1060px;
+  position:absolute;
+  background-color:#347AEB;
+  height:20px;
+  top:440;
+}
+#cookie-pic{
+  height: 320px;
+  position: absolute;
+  left: 230;
+  top: 90;
+  border-style: solid;
+  border-color: green;
+}
+#cookie-pic2{
+  height: 320px;
+  position: absolute;
+  left: 230;
+  top: 90;
+  border-style: solid;
+  border-color: green;
+  display: none;
+}
+#cookie-pic3{
+  height: 320px;
+  position: absolute;
+  left: 230;
+  top: 90;
+  border-style: solid;
+  border-color: green;
+  display: none;
+}
+#cookie-desc-container{
+  position: absolute;
+  left: 700;
+  top: 80;
+  font-size: 25;
+}
+#fivestars-cookie{
+  height:50px;
+  position: absolute;
+  left: 0;
+  top: 40;
+}
+#cookie-title {
+  font-size: 40;
+  position: absolute;
+  left: 30;
+  padding: 10;
+  font-weight: 700;
+  top: 20;
+}
+#overall {
+  font-size: 30;
+  position:absolute;
+}
+#based-on{
+  position: absolute;
+  left: 110;
+  top: 90;
+  font-size:15;
+}
+#cookie-desc{
+  position: relative;
+  top: 100;
+  font-size:20;
+}
+#thumb1, #thumb2, #thumb3{
+  height:70px;
+  z-index:80;
+  position:absolute;
+  cursor:pointer;
+}
+.thumbnails{
+  position:relative;
+  left:50;
+}
+#thumb1 {
+  top: 92;
+  left: 40;
+}
+#thumb1:hover{
+  border-style:solid;
+  border-color:yellow;
+  border-width:2px;
+}
+#thumb2 {
+  top: 220;
+  left: 40;
+}
+#thumb2:hover{
+  border-style:solid;
+  border-color:yellow;
+  border-width:2px;
+}
+#thumb3 {
+  top: 346;
+  left: 40;
+}
+#thumb3:hover{
+    border-style:solid;
+  border-color:yellow;
+  border-width:2px;
+}
+#divider1 {
+  position: absolute;
+  width: 115px;
+  top: 180;
+  left: 28;
+}
+#divider2 {
+  position: absolute;
+  width: 115px;
+  top: 310;
+  left: 28;
+}
+#cookie-button-hangout {
+  font-family: Alegreya;
+  font-size: 16;
+  position: absolute;
+  left: 720;
+  padding: 10;
+  top: 350;
+  background-color: #31E993;
+  padding-left: 15;
+  padding-right: 15;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 2;
+  border-color: yellow;
+}
+#cookie-button-hangout:hover{
+background-color:green;
+}
+#cookie-button-rate {
+  font-family: Alegreya;
+  font-size: 16;
+  position: absolute;
+  left: 870;
+  padding: 10;
+  top: 350;
+  background-color: #31E993;
+  padding-left: 15;
+  padding-right: 15;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 2;
+  border-color: yellow;
+}
+#cookie-button-rate:hover{
+background-color:green;
+}
+#bonecookie1 {
+  height: 30;
+  position: absolute;
+  right: 90;
+  top: 146;
+}
+#bonecookie2 {
+  height: 30;
+  position: absolute;
+  right: 95;
+  top: 175;
+}
+/*USER RATINGS */
+#profile-ratings-container{
+  font-family:Alegreya;
+}
+#profile-ratings-header {
+  font-family: Cookie;
+  color: yellow;
+  padding: 10;
+  background-color: navy;
+  position: absolute;
+  font-size: 35;
+  padding-left: 20;
+  padding-right: 100;
+  top: 659;
+  left: 125;
+  z-index: 100;
+}
+/*RYAN*/
+#ratings1{
+  width: 1005px;
+  height: 200px;
+  border-style: solid;
+  border-width: 2px;
+  background-color: white;
+  position: relative;
+  top: 120;
+  left: 30;
+  margin-left: auto;
+  margin-right: auto;
+}
+#rating-top1{
+  width: 854;
+  background-color: #347AEB;
+  position: absolute;
+  z-index: 100;
+  height: 20px;
+  left: 151;
+  z-index: 50;
+}
+#rating-bottom1{
+  width:1005px;
+  background-color:#347AEB;
+  position: absolute;
+  z-index:100;
+  height:20px;
+  top:180;
+}
+#ryanpic{
+  height:100px;
+  position: absolute;
+  padding: 20;
+  top:20;
+  left:20;
+}
+#ryantitle{
+  position: absolute;
+  top: 145;
+  left: 60;
+  color:navy;
+  cursor: pointer;
+}
+#five-stars-ryan {
+  height: 40;
+  position: absolute;
+  left: 170;
+  top: 65;
+}
+#boneryan1, #boneryan2 {
+  height: 20px;
+  position:absolute;
+}
+#boneryan2{
+  top: 117;
+  left: 280;
+}
+#boneryan1{
+  left: 280;
+  top: 140;
+}
+#overalltitle1{
+  position:absolute;
+  top: 40;
+  left: 175;
+}
+#ryanlikerts{
+  position:absolute;
+  top: 100;
+  left: 160;
+}
+#ryandesctitle{
+  position:absolute;
+  font-size: 20;
+  font-weight: 700;
+  top: 50;
+  left: 450;
+}
+#ryandesc{
+  position:absolute;
+  left: 450;
+  top: 80;
+}
+#helpful1, #helpful2, #helpful3{
+  position:absolute;
+  z-index: 100;
+  top: 160;
+  left: 830;
+  font-size: 13;
+  color: navy;
+}
+/*BARACK*/
+#ratings2{
+  width:1005px;
+  height:200px;
+  border-style:solid;
+  border-width:2px;
+  background-color:white;
+  position: relative;
+  left: 30;
+  top: 140;
+  margin-left:auto;
+  margin-right:auto;
+}
+  #rating-top2{
+  width: 1005px;
+  background-color: #347AEB;
+  position: absolute;
+  z-index: 100;
+  height: 20px;
+}
+#rating-bottom2{
+  width:1005px;
+  background-color:#347AEB;
+  position: absolute;
+  z-index:100;
+  height:20px;
+  top:180;
+}
+#barackpic{
+  height:100px;
+  position: absolute;
+  padding: 20;
+  top:20;
+  left:20;
+}
+#baracktitle{
+  position: absolute;
+  top: 145;
+  left: 60;
+  color:navy;
+  cursor: pointer;
+}
+#five-stars-barack {
+  height: 40;
+  position: absolute;
+  left: 170;
+  top: 65;
+}
+#bonebarack1, #bonebarack2 {
+  height: 20px;
+  position:absolute;
+}
+#bonebarack2{
+  top: 117;
+  left: 280;
+}
+#bonebarack1{
+  left: 295;
+  top: 140;
+}
+#overalltitle2{
+  position:absolute;
+  top: 40;
+  left: 175;
+}
+#baracklikerts{
+  position:absolute;
+  top: 100;
+  left: 160;
+}
+#barackdesctitle{
+  position:absolute;
+  font-size: 20;
+  font-weight: 700;
+  top: 50;
+  left: 450;
+}
+#barackdesc{
+  position:absolute;
+  left: 450;
+  top: 80;
+}
+/*REESE*/
+#ratings3{
+  width:1005px;
+  height:200px;
+  border-style:solid;
+  border-width:2px;
+  background-color:white;
+  position: relative;
+  left: 30;
+  top: 160;
+    margin-right:auto;
+  margin-left:auto;
+}
+  #rating-top3{
+   width: 1005px;
+  background-color: #347AEB;
+  position: absolute;
+  z-index: 100;
+  height: 20px;
+}
+#rating-bottom3{
+  width:1005px;
+  background-color:#347AEB;
+  position: absolute;
+  z-index:100;
+  height:20px;
+  top:180;
+}
+#reesepic{
+  height:100px;
+  position: absolute;
+  padding: 20;
+  top:20;
+  left:20;
+}
+#reesetitle{
+  position: absolute;
+  top: 145;
+  left: 60;
+  color:navy;
+  cursor: pointer;
+}
+#five-stars-reese {
+  height: 40;
+  position: absolute;
+  left: 170;
+  top: 65;
+}
+#bonereese1, #bonereese2 {
+  height: 20px;
+  position:absolute;
+}
+#bonereese2{
+  top: 117;
+  left: 280;
+}
+#bonereese1{
+  left: 267;
+  top: 140;
+}
+#overalltitle3{
+  position:absolute;
+  top: 40;
+  left: 175;
+}
+#reeselikerts{
+  position:absolute;
+  top: 100;
+  left: 160;
+}
+#reesedesctitle{
+  position:absolute;
+  font-size: 20;
+  font-weight: 700;
+  top: 50;
+  left: 450;
+}
+#reesedesc{
+  position:absolute;
+  left: 450;
+  top: 80;
+}
+#seemoreratings{
+  font-family:Alegreya;
+  position:relative;
+  font-size:14;
+  color:navy;
+  top: 160;
+  padding: 20;
+  cursor: pointer;
+    display: inline-block;
+  float: right;
+}
+/*RATING MODAL*/
+#rating-modal-overlay {
+  width: 1500;
+  height: 1500;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  z-index: 100;
+  left: 0;
+  }
+#rating-modal-container{
+  font-family:Alegreya;
+  display: none;
+}
+#rating-modal-box{
+    width: 370;
+  height: 300px;
+  background-color: lightyellow;
+  position: fixed;
+  z-index: 150;
+  top: 220;
+  left: 450;
+  border-style: solid;
+  border-color: navy;
+  border-width: 2px;
+}
+.no-scroll{
+  overflow: hidden;
+}
+#rating-modal-header{
+   font-family: Cookie;
+  font-size: 30;
+  padding: 10;
+  background-color: #347AEB;
+  margin-right: 130;
+  color: yellow;
+}
+#rating-modal-overall {
+  position: absolute;
+  top: 77;
+  left: 20;
+}
+.likertoverall {
+  position: absolute;
+  top: 60;
+  left: 100;
+}
+#playfulness {
+  position: absolute;
+  top: 120;
+  left: 20;
+}
+.likert1 {
+  position: absolute;
+  left: 100;
+  top: 103;
+}
+#aggressiveness {
+  position: absolute;
+  top: 160;
+  left: 20;
+}
+.likert2{
+  position: absolute;
+  top: 145;
+  left: 100;
+}
+#comments {
+  position: absolute;
+  top: 200;
+  left: 20;
+}
+#rating-modal-button {
+   position: absolute;
+  top: 235;
+  left: 270;
+  background-color: #31E993;
+  padding: 10;
+  padding-left: 15;
+  padding-right: 15;
+  border-style: solid;
+  border-color: yellow;
+  cursor: pointer;
+}
+#rating-modal-button:hover{
+  background-color:green;
+}
+#textarea{
+   width: 230;
+  height: 60;
+    border-style: solid;
+  border-color: green;
+  border-width: 2px;
+}
+#rating1-date{
+  font-family:Alegreya;
+  font-size:13;
+  position:absolute;
+   left: 900;
+  z-index: 100;
+  top: 24;
+}
+#rating2-date{
+  font-family:Alegreya;
+  font-size:13;
+  position:absolute;
+   left: 900;
+  z-index: 100;
+  top: 24;
+}
+#rating3-date{
+  font-family:Alegreya;
+  font-size:13;
+  position:absolute;
+  left: 900;
+  z-index: 100;
+  top: 24;
+}

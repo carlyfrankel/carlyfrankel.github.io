@@ -1,0 +1,826 @@
+/*Discover CSS*/
+body {
+  background-color: lightblue;
+}
+/*Header*/
+#header-container{
+  width: 100%;
+  height: 100px;
+  background-color: #347AEB;
+  position: relative;
+  left: -10;
+  border-style: solid;
+  border-left: none;
+  border-right: none;
+  border-color: navy;
+  border-width: 2.5px;
+}
+#findpuppy {
+  font-family: Alegreya;
+  font-size: 12;
+  position: absolute;
+  left: 730;
+  top: 29;
+  padding: 5;
+  background-color: #31E993;
+  border-color: yellow;
+  border-style: solid;
+  cursor: pointer;
+}
+#findpuppy:hover{
+  background-color:green;
+}
+.navbar-container{
+   background-color: #31E993;
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  z-index: 50;
+  top: 90;
+  border-color: navy;
+  border-width: 2;
+  border-style: solid;
+  border-left: none;
+  border-right: none;
+  left:-18.5;
+}
+#navbar{
+  position: relative;
+  font-family: Alegreya;
+  font-size: 22;
+  left: 300;
+  color: black;
+  top: 7;
+
+}
+#home{
+position: absolute;
+  left: -170;
+    cursor:pointer;
+}
+#home:hover{
+  color:yellow;
+}
+#about{
+  position: absolute;
+  left: 40;
+    cursor:pointer;
+}
+#about:hover{
+  color:yellow;
+}
+#browse{
+  position: absolute;
+  left: 230;
+  cursor: pointer;
+}
+#browse:hover{
+  color:yellow;
+}
+#settings{
+  position: absolute;
+  left: 700;
+  cursor: pointer;
+}
+#settings:hover{
+  color:yellow;
+}
+#groups{
+   position: absolute;
+  left: 520;
+  cursor: pointer;
+}
+#groups:hover{
+  color:yellow;
+}
+
+#homepaw,#aboutpaw,#settingspaw,#browsepaw,#groupspaw{
+  height:20px;
+}
+#homepaw{
+  position:absolute;
+  left: -190;
+  top: 4;
+}
+#aboutpaw{
+  position:absolute;
+  left: 20;
+  top: 4;
+}
+#browsepaw{
+   position: absolute;
+  left: 210;
+  top: 4;
+}
+#settingspaw{
+   position: absolute;
+  left: 680;
+  top: 4;
+}
+#groupspaw{
+    left: 500;
+  position: absolute;
+  top: 4;
+}
+.logo{
+  z-index: 100;
+  position: relative;
+  right: 300;
+  cursor: pointer;
+}
+#pawprint{
+  height: 40px;
+  z-index: 100;
+  position: absolute;
+  left: 320;
+  top: 20;
+}
+#title{
+  font-family: Cookie;
+  font-size: 60;
+  color:yellow;
+  z-index: 100;
+  position: absolute;
+  left: 360;
+  top:10;
+}
+#tagline{
+  font-family: Alegreya;
+  font-size: 12;
+  z-index: 100;
+  color:white;
+  position: relative;
+  left: 450;
+  top: 60;
+}
+.search{
+  border: 5px solid white;
+  padding: 10px;
+  background: lightyellow;
+  margin: 0px;
+  margin-bottom: 20px;
+  width: 330px;
+  height: 20px;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: Alegreya;
+  color: black;
+  position: absolute;
+  left: 390;
+  top: 30;
+  z-index: 100;
+}
+.search:-webkit-input-placeholder  {
+color: white;
+}
+#welcome{
+  font-family: Alegreya;
+  position: absolute;
+  left: 940;
+  font-size: 14;
+  top: 30;
+  cursor: pointer;
+  background-color: lightyellow;
+  padding: 5;
+  padding-right: 25;
+  border-style: solid;
+  border-color:grey;
+  border-width: 1px;
+}
+#welcome:hover{
+  color:#347AEB;
+}
+#usermodalarrow{
+  height: 15px;
+  position: absolute;
+  z-index: 100;
+  left: 1065;
+  top: 38;
+}
+
+/*USER MODAL */
+#user-container{
+  position: fixed;
+  background-color: white;
+  border-width: 2px;
+  z-index: 100;
+  left: 937;
+  width: 150;
+  height: 120;
+  top: 68;
+  font-family: Alegreya;
+  background-color: lightyellow;
+  font-size:13;
+  display: none;
+  border-style: solid;
+  border-color:grey;
+  border-width: 1px;
+}
+#queue{
+   position: absolute;
+  top: 10;
+  left: 27;
+  cursor: pointer;
+}
+#queue:hover{
+  color:#347AEB;
+}
+#queuepaw{
+  position: absolute;
+  height: 10px;
+  top: 14;
+  left: 12;
+}
+#favorites{
+   position: absolute;
+  top: 35;
+  left: 27;
+  cursor: pointer;
+}
+#favorites:hover{
+  color:#347AEB;
+}
+#favoritespaw{
+  position: absolute;
+  height: 10px;
+  top: 39;
+  left: 12;
+
+}
+#register{
+   position: absolute;
+  top: 60;
+  left: 27;
+  cursor: pointer;
+}
+#register:hover{
+  color:#347AEB;
+}
+#registerpaw{
+  position: absolute;
+  height: 10px;
+  top: 64;
+  left: 12;
+
+}
+#logout{
+    position: absolute;
+  top: 90;
+  left: 27;
+  cursor: pointer;
+  }
+  #logout:hover{
+  color:#347AEB;
+}
+  #logoutpaw{
+  position: absolute;
+  height: 10px;
+  top: 94;
+  left: 12;
+}
+#user-bulldog{
+   height: 38px;
+  position: absolute;
+  left: 90;
+  top: 80;
+}
+#Anderson {
+  height: 55;
+  position: absolute;
+  left: 1100;
+  top: 10;
+  border-style: solid;
+  border-width: 2px;
+  border-color: aquamarine;
+}
+
+/*Featured Carousel*/
+.featured-container{
+  background-color:white;
+  height: 450px;
+  width: 1070px;
+  background-color: white;
+  position: relative;
+  left: 30;
+  top: 50;
+  border-style: solid;
+  border-width: 2px;
+  margin-left:auto;
+  margin-right:auto;
+}
+#featured-container-top {
+  width: 600;
+  height: 35px;
+  background-color: #347AEB;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#featured-header {
+  font-family: Cookie;
+  font-size: 40;
+  padding: 20;
+  background-color: navy;
+  color: yellow;
+  margin-right: 600;
+  padding-bottom: 5;
+  padding-top: 5;
+  z-index:100;
+}
+#nextarrowleft {
+  height: 45;
+  position: absolute;
+  top: 200;
+  left: 30;
+  cursor:pointer;
+
+  }
+  #nextarrowright {
+  height: 45;
+  position: absolute;
+  top: 200;
+  right: 50;
+  cursor:pointer;
+}
+#featured-footer{
+  width:1070px;
+  height:35px;
+  background-color:#347AEB;
+  position: absolute;
+  top: 415;
+}
+/* Lil Jeffrey */
+.lil-jeffrey-container{
+  width: 880px;
+  height: 350px;
+  margin:0 auto;
+}
+#lil-jeffreypic{
+  height: 280px;
+  z-index: 50;
+  position: absolute;
+  top: 80;
+  left: 100;
+}
+
+#lil-jeffrey {
+  font-family: Alegreya;
+  font-size: 35;
+  position: absolute;
+  right: 190;
+  top: 70;
+  font-weight: 700;
+}
+#five-stars {
+  height: 40;
+  position: absolute;
+  top: 115;
+  right: 350;
+}
+#lil-jeff-desc {
+  position: absolute;
+  font-family: Alegreya;
+  font-size: 22;
+  right: 260;
+  top: 150;
+}
+#ljbutton-rate {
+  font-family: Alegreya;
+  font-size: 20;
+  position: absolute;
+  right: 250;
+  padding: 10;
+  top: 320;
+  background-color: #31E993;
+  padding-left: 30;
+  padding-right: 30;
+  cursor: pointer;
+    border-style: solid;
+  border-width: 2;
+  border-color: yellow;
+}
+#ljbutton-rate:hover{
+  background-color:green;
+}
+#ljbutton-hangout {
+  font-family: Alegreya;
+  font-size: 20;
+  position: absolute;
+  right: 430;
+  padding: 10;
+  top: 320;
+  background-color: #31E993;
+  padding-left: 15;
+  padding-right: 15;
+  cursor: pointer;
+    border-style: solid;
+  border-width: 2;
+  border-color: yellow;
+}
+#ljbutton-hangout:hover{
+  background-color:green;
+}
+#bonelj1 {
+  height: 30;
+  position: absolute;
+  right: 380;
+  top: 203;
+}
+#bonelj2 {
+  height: 30;
+  position: absolute;
+  right: 410;
+  top: 233;
+}
+/*Lil Jeffrey*/
+/*Snickers*/
+.snickers-container{
+  display:none;
+  width: 880px;
+  height: 350px;
+  margin:0 auto;
+}
+#snickerspic{
+  height: 280px;
+  width:350px;
+  z-index: 50;
+  position: absolute;
+  top: 80;
+  left: 100;
+}
+
+#snickers {
+  font-family: Alegreya;
+  font-size: 35;
+  position: absolute;
+  right: 120;
+  top: 70;
+  font-weight: 700;
+}
+#five-stars {
+  height: 40;
+  position: absolute;
+  top: 115;
+  right: 350;
+}
+#snickers-desc {
+  position: absolute;
+  font-family: Alegreya;
+  font-size: 22;
+  right: 260;
+  top: 150;
+}
+#snickers-button-rate {
+  font-family: Alegreya;
+  font-size: 20;
+  position: absolute;
+  right: 250;
+  padding: 10;
+  top: 320;
+  background-color: #31E993;
+  padding-left: 30;
+  padding-right: 30;
+  cursor: pointer;
+    border-style: solid;
+  border-width: 2;
+  border-color: yellow;
+}
+#snickers-button-rate:hover{
+  background-color:green;
+}
+#snickers-button-hangout {
+  font-family: Alegreya;
+  font-size: 20;
+  position: absolute;
+  right: 430;
+  padding: 10;
+  top: 320;
+  background-color: #31E993;
+  padding-left: 15;
+  padding-right: 15;
+  cursor: pointer;
+    border-style: solid;
+  border-width: 2;
+  border-color: yellow;
+}
+#snickers-button-hangout:hover{
+  background-color:green;
+}
+#bone-snick1 {
+  height: 30;
+  position: absolute;
+  right: 410;
+  top: 203;
+}
+#bone-snick2 {
+  height: 30;
+  position: absolute;
+  right: 410;
+  top: 233;
+}
+/*SNICKERS*/
+
+
+/*RECOMMENDED FOR YOU*/
+.recommended-container {
+position: relative;
+  top: 90;
+  left: -285;
+  font-family: Alegreya;
+  height: 600px;
+  width: 500px;
+  background-color: white;
+  border-style: solid;
+  border-width: 1;
+  margin-right: auto;
+  margin-left: auto;
+}
+#recommended-header{
+  font-family:Cookie;
+  font-size: 30;
+  color: yellow;
+  padding: 10;
+  background-color: navy;
+  margin-right:200;
+}
+#recommended-top{
+  height:20px;
+  width:200px;
+  position:absolute;
+  background-color:#347AEB;
+  top:0;
+  left:300;
+}
+#recommended-bottom{
+   height:20px;
+  width:500px;
+  position:absolute;
+  background-color:#347AEB;
+  top:580;
+}
+/*GERALDINE */
+#geraldine-container{
+    position: absolute;
+  left: 40;
+  top: 10;
+  width:500px;
+}
+#geraldine{
+  position: absolute;
+  left: 150;
+  top:80;
+  font-weight: 700;
+  font-size: 20;
+  cursor: pointer;
+}
+#geraldine-pic{
+  height:200px;
+  position:absolute;
+  top:80;
+}
+#gerstar{
+  height:20px;
+  position:absolute;
+    top: 105;
+  left: 170;
+}
+#gerbone1{
+  position:absolute;
+  height:20px;
+  z-index: 100;
+    left: 230;
+  top: 155;
+}
+#gerbone2{
+    position:absolute;
+  height:20px;
+  z-index: 100;
+    left: 245;
+  top: 176;
+}
+#geraldine-desc{
+    position: absolute;
+  font-size: 16;
+  left: 150;
+  top: 115;
+}
+#geraldine-button-hangout {
+  font-family: Alegreya;
+  font-size: 16;
+  position: absolute;
+  left: 210;
+  padding: 10;
+  top: 230;
+  background-color: #31E993;
+  padding-left: 15;
+  padding-right: 15;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 2;
+  border-color: yellow;
+}
+#geraldine-button-hangout:hover{
+background-color:green;
+}
+/*GERALDINE*/
+hr{
+  position: relative;
+  top: 260;
+  z-index: 100;
+  width: 440;
+  left: -2;
+}
+/*PACO*/
+#paco{
+font-weight: 700;
+  font-size: 20;
+  position: absolute;
+  left: 150;
+  cursor: pointer;
+}
+#paco-container {
+    position: absolute;
+  top: 350;
+  width: 450px;
+  left: 40;
+}
+#paco-pic{
+  height:190px;
+  position:absolute;
+  z-index: 100;
+}
+#pacostar{
+  height:20px;
+  position:absolute;
+    top: 25;
+  left: 168;
+}
+#pacobone1{
+    position:absolute;
+  height:20px;
+  z-index: 100;
+    top: 75;
+  left: 270;
+}
+#pacobone2{
+    position:absolute;
+  height:20px;
+  z-index: 100;
+    left: 250;
+  top: 96;
+}
+#paco-desc{
+  font-size: 16;
+  position: absolute;
+  top: 35;
+  left: 150;
+}
+#paco-button-hangout {
+  font-family: Alegreya;
+  font-size: 16;
+  position: absolute;
+  left: 210;
+  padding: 10;
+  top: 150;
+  background-color: #31E993;
+  padding-left: 15;
+  padding-right: 15;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 2;
+  border-color: yellow;
+}
+#paco-button-hangout:hover{
+background-color:green;
+}
+/*PACO*/
+
+#seemore{
+font-size: 14;
+z-index: 100;
+position: absolute;
+top: 555;
+left: 320;
+color:navy;
+cursor:pointer;
+}
+/*RECOMMENDED FOR YOU*/
+
+/* RATE THIS PUPPY */
+.ratethispuppy-container {
+  position: relative;
+  top: -512;
+  left: 285;
+  font-family: Alegreya;
+  height: 450;
+  width: 500;
+  background-color: white;
+  border-style: solid;
+  border-width: 1;
+  margin-right: auto;
+  margin-left: auto;
+}
+#ratethispuppy-header{
+  font-family:Cookie;
+  font-size: 30;
+  color: yellow;
+  padding: 10;
+  background-color: navy;
+  margin-right:250;
+}
+#ratethispuppy-top{
+  position:absolute;
+  background-color:#347AEB;
+  height:20px;
+  width:250px;
+    top: 0;
+  left: 250;
+}
+#ratethispuppy-bottom{
+  position:absolute;
+  background-color:#347AEB;
+  height:20px;
+  width:500px;
+  top:430;
+}
+#pepper-pic{
+  height: 200;
+  position: absolute;
+  top: 75;
+  left: 30;
+}
+#pepper {
+  position: absolute;
+  left: 204;
+  top: 70;
+  font-size: 20;
+  font-weight: 700;
+}
+.likertoverall {
+  position: absolute;
+  top: 120;
+  left: 202;
+}
+
+#overall {
+  position: absolute;
+  top: -20;
+  left: 10;
+}
+.likert1 {
+    float: left;
+    list-style-type: none;
+    z-index: 100;
+  position: absolute;
+  top: 180;
+  left: 218;
+}
+#playfulness {
+  position: absolute;
+  top: -20;
+  left: -5;
+}
+.likert2 {
+  float: left;
+  list-style-type: none;
+  z-index: 100;
+  position: absolute;
+  top: 240;
+  left: 218;
+}
+#aggressiveness {
+  position: absolute;
+  top: -20;
+  left: -5;
+}
+#comments {
+  position: relative;
+ left: 30;
+  top: 230;
+  }
+#textarea{
+   width: 260;
+  height: 100;
+    border-style: solid;
+  border-color: green;
+  border-width: 2px;
+}
+#pepper-button-rate {
+    font-family: Alegreya;
+  font-size: 16;
+  position: absolute;
+  right: 100;
+  padding: 10;
+  top: 360;
+  background-color: #31E993;
+  padding-left: 15;
+  padding-right: 15;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 2;
+  border-color: yellow;
+}
+#pepper-button-rate:hover{
+background-color:green;
+}
+

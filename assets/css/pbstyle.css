@@ -1,0 +1,322 @@
+/* Home Page */
+body{
+  overflow: hidden;
+}
+#background{
+    background: url('assets/img/background.jpg');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+#overlay{
+	background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color:black;
+    z-index:100;
+    opacity:.7;
+}
+.logo{
+	z-index: 100;
+	position:relative;
+	  top: -30;
+  left: -300;
+}
+#pawprint{
+  height: 93px;
+  z-index: 100;
+  position: absolute;
+  left: 320;
+  top: 20;
+}
+#intro{
+font-family: Alegreya;
+  font-size: 35;
+  position: relative;
+  left: 250;
+  top: 550;
+  color:white;
+  z-index: 100;
+  letter-spacing:4;
+}
+#title{
+  font-family: Cookie;
+  font-size: 120;
+  color:yellow;
+  z-index: 100;
+  position: absolute;
+  left: 400;
+}
+#tagline{
+  font-family: Alegreya;
+  font-size: 20;
+  z-index: 100;
+  color:white;
+  position: relative;
+  left: 580;
+  top: 100;
+}
+.footer{
+	position:relative;
+	font-family:Alegreya;
+	color:lightyellow;
+	z-index: 100;
+	left: 830;
+  	font-size: 20;
+  	top: -40;
+
+
+}
+#login{
+padding-right:60;
+cursor: pointer;
+position:absolute;
+transition:.5s;
+}
+#login:hover{
+    color:yellow;
+}
+#signup{
+	cursor:pointer;
+	position: absolute;
+	left: 130;
+	transition:.5s;
+}
+#signup:hover{
+    color:yellow;
+}
+#modal-container{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 150;
+  display:none;
+}
+#modal-overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+#modal-box {
+  width: 360px;
+  height: 200px;
+  background-color: 2283A9;
+  position: absolute;
+  top: 220;
+  left: 420;
+  z-index: 100;
+  }
+  #modal-header{
+  color: white;
+  font-family: Cookie;
+  font-size: 45;
+  font-weight: 100;
+  padding: 10;
+  padding-left: 20;
+  }
+  .modal-footer{
+   position: absolute;
+    top: 25;
+  left: -120;
+  z-index: 100;
+}
+#submit{
+  padding: 10;
+  background-color: white;
+  color: black;
+  position: relative;
+  left: 320;
+  top: 120;
+  cursor: pointer;
+  font-family: Alegreya;
+}
+#cancel {
+  padding: 10;
+  margin-right: 400;
+  background-color: white;
+  color: black;
+  position: absolute;
+  left:392;
+  top:120;
+  cursor: pointer;
+  font-family:Alegreya;
+}
+.username{
+border: 2px solid black;
+padding: 10px;
+background: lightyellow;
+margin: 0px;
+margin-bottom: 20px;
+width: 270px;
+height:20px;
+font-size: 12px;
+font-weight: 700;
+color: black;
+position: absolute;
+left: 20;
+top:64;
+}
+.username:-webkit-input-placeholder  {
+color: white;
+}
+.password{
+border: 2px solid black;
+padding: 10px;
+background: lightyellow;
+margin: 0px;
+margin-bottom: 20px;
+width: 270;
+height: 20px;
+font-size: 12px;
+font-weight: 700;
+color: black;
+position: absolute;
+top: 100;
+left: 20;
+}
+.password:-webkit-input-placeholder  {
+color: white;
+}
+#loginpuppy {
+  position: absolute;
+  left: 180;
+  top: -54px;
+  height: 85px;
+  }
+#pawselector1{
+	height:20px;
+	position:relative;
+	top:5;
+}
+#pawselector2{
+	height:20px;
+	position:absolute;
+	top:5;
+	left:109;
+}
+#remembermebox {
+  position: relative;
+  top: 50;
+  left: 20;
+}
+#rememberme {
+  position: relative;
+  top: 50;
+  left: 16;
+  font-family: Alegreya;
+  font-size: 15;
+}
+/*Modal Box Signup */
+#modal-container2{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 150;
+  display:none;
+}
+#modal-overlay2 {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+#modal-box2 {
+  width: 360px;
+  height: 200px;
+  background-color: #196236;
+  position: absolute;
+  top: 220;
+  left: 420;
+  z-index: 100;
+  }
+  #modal-header2{
+  color: white;
+  font-family: Cookie;
+  font-size: 45;
+  font-weight: 100;
+  padding: 10;
+  padding-left: 20;
+  }
+  .modal-footer2{
+   position: absolute;
+    top: 25;
+  left: -120;
+  z-index: 100;
+}
+#submit2{
+  padding: 10;
+  background-color: white;
+  color: black;
+  position: relative;
+  left: 300;
+  top: 120;
+  cursor: pointer;
+  font-family: Alegreya;
+}
+#cancel2 {
+  padding: 10;
+  margin-right: 400;
+  background-color: white;
+  color: black;
+  position: absolute;
+  left:392;
+  top:120;
+  cursor: pointer;
+  font-family:Alegreya;
+}
+.username2{
+border: 2px solid black;
+padding: 10px;
+background: lightyellow;
+margin: 0px;
+margin-bottom: 20px;
+width: 270px;
+height:20px;
+font-size: 12px;
+font-weight: 700;
+color: black;
+position: absolute;
+left: 20;
+top:64;
+}
+.username2:-webkit-input-placeholder  {
+color: white;
+}
+.password2{
+border: 2px solid black;
+padding: 10px;
+background: lightyellow;
+margin: 0px;
+margin-bottom: 20px;
+width: 270;
+height: 20px;
+font-size: 12px;
+font-weight: 700;
+color: black;
+position: absolute;
+top: 100;
+left: 20;
+}
+.password2:-webkit-input-placeholder  {
+color: white;
+}
+#signuppuppy {
+  position: relative;
+  top: -120;
+  height: 70;
+  left: 70;
+  }
+#remembermebox2 {
+  position: relative;
+  top: -15;
+  left: 20;
+}
+#rememberme2 {
+  position: relative;
+  top: -15;
+  left: 16;
+  font-family: Alegreya;
+  font-size: 15;
+}
+
