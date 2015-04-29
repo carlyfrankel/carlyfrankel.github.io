@@ -53,6 +53,9 @@ body {
   top: 7;
 
 }
+a{
+  text-decoration:none;
+}
 #home{
 position: absolute;
   left: -170;
