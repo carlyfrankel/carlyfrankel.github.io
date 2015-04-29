@@ -29,6 +29,12 @@ body {
 #findpuppy:hover{
   background-color:green;
 }
+a{
+  text-decoration:none;
+}
+a:hover{
+  color:yellow;
+}
 .navbar-container{
    background-color: #31E993;
   width: 100%;
